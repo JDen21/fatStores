@@ -1,0 +1,29 @@
+{
+  "root": "*",
+  "seller": {
+    "IProductQuery": [
+      "getProductsDisplay"
+    ]
+  },
+  "designer": {
+    "IProductQuery": [
+      "createNewDesign",
+      "getProductsDisplay",
+      "requestNewProducer",
+      "updateDesignSaleDetails"
+    ]
+  },
+  "producer": {
+    "IProductQuery": [
+      "getProductsDisplay",
+      "updateDesignSaleStatus"
+    ]
+  },
+  "visitor": {
+    "IPermissions": [
+      "checkUserExist",
+      "getUserByEmail",
+      "createUser"
+    ]
+  }
+}

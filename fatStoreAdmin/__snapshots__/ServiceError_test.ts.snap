@@ -1,0 +1,11 @@
+export const snapshot = {};
+
+snapshot[`ServiceError snaps/UnknownNullError 1`] = `'{"devMessage":"Unknown error.","code":500,"message":"Error response to request"}'`;
+
+snapshot[`ServiceError snaps/InheritedError 1`] = `'{"devMessage":"Error from external","code":500,"rootError":{},"message":"Error response to request"}'`;
+
+snapshot[`ServiceError snaps/MessageError 1`] = `'{"devMessage":"Unknown error.","code":500,"message":"Error response to request"}'`;
+
+snapshot[`ServiceError snaps/CodeError 1`] = `'{"devMessage":"Unknown error.","code":512,"message":"Error response to request"}'`;
+
+snapshot[`ServiceError snaps/DefaultGatewayError 1`] = `'{"devMessage":"Unknown error.","code":502,"message":"Error response to request"}'`;
